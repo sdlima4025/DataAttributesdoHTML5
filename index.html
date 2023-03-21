@@ -17,17 +17,17 @@
         <div class="conteudos">
             <div data-conteudo="entrar">
                 <form  class="form">
-                    <input type="text" name="email" placeholder="Seu email">
-                    <input type="password" name="senha" placeholder="Sua senha">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <input type="password" name="senha" placeholder="Sua senha" required minlength="4">
                     <button>Entrar</button>
                 </form>
             </div>
 
             <div class="hide" data-conteudo="cadastrar">
                 <form  class="form">
-                    <input type="text" name="email" placeholder="Seu email">
-                    <input type="password" name="senha" placeholder="Sua senha">
-                    <input type="password" name="senha" placeholder="Repita sua senha">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <input type="password" name="senha" placeholder="Sua senha" required minlength="4">
+                    <input type="password" name="senha" placeholder="Repita sua senha" required minlength="4">
                     <button>Cadastrar</button>
                 </form>
             </div>
